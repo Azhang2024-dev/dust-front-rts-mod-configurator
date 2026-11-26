@@ -1,0 +1,2651 @@
+{
+  "schema_version": 2,
+  "name": "V3 榴弹无畏强化",
+  "description": "自定义预设 (V3 榴弹无畏强化)",
+  "target_game_version": "D-35-1",
+  "changes": [
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Armory_Build",
+      "field": "timeCreation",
+      "value": 8.5
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_AtTurret_Build",
+      "field": "timeCreation",
+      "value": 15.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Avanpost_Build",
+      "field": "timeCreation",
+      "value": 8.5
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_BarnBig_Build",
+      "field": "gears",
+      "value": 20
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_BarnBig_Build",
+      "field": "limitProduce",
+      "value": 1000
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_BarnBig_Build",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Barn_Build",
+      "field": "limitProduce",
+      "value": 5000
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Barn_Build",
+      "field": "timeCreation",
+      "value": 12.5
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Barrack_Build",
+      "field": "timeCreation",
+      "value": 7.5
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Bunker_Build",
+      "field": "timeCreation",
+      "value": 6.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Complector_Build",
+      "field": "timeCreation",
+      "value": 20.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Crane_Build",
+      "field": "gears",
+      "value": 25
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Crane_Build",
+      "field": "timeCreation",
+      "value": 20.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Factory_Build",
+      "field": "timeCreation",
+      "value": 15.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_FlamerTurret_Build",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_GeneratorLight_Build",
+      "field": "timeCreation",
+      "value": 4.5
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Generator_Build",
+      "field": "energyProduce",
+      "value": 4000
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Generator_Build",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_MassFabricator_Build",
+      "field": "timeCreation",
+      "value": 45.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Radar_Build",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Refinery_Build",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_ResStantion_Build",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Silo_Build",
+      "field": "siloProduce",
+      "value": 5000
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Silo_Build",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_SteelFoundry_Build",
+      "field": "timeCreation",
+      "value": 45.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_SubGen_Module",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_SupplyDepot_Build",
+      "field": "timeCreation",
+      "value": 15.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Trench_Build",
+      "field": "timeCreation",
+      "value": 3.0
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_YarusSilo_Build",
+      "field": "timeCreation",
+      "value": 30.0
+    },
+    {
+      "script": "TacticalAbilityConfig",
+      "asset_name": "r_carpetBombardment",
+      "field": "coolDown",
+      "value": 2.5
+    },
+    {
+      "script": "TacticalAbilityConfig",
+      "asset_name": "r_harvesterDrop",
+      "field": "coolDown",
+      "value": 10.0
+    },
+    {
+      "script": "TacticalAbilityConfig",
+      "asset_name": "r_heavyBombardment",
+      "field": "coolDown",
+      "value": 1.5
+    },
+    {
+      "script": "TacticalAbilityConfig",
+      "asset_name": "r_infantryDrop",
+      "field": "coolDown",
+      "value": 15.0
+    },
+    {
+      "script": "TacticalAbilityConfig",
+      "asset_name": "r_yakDefence",
+      "field": "coolDown",
+      "value": 30.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_BMP_Unit",
+      "field": "minerals",
+      "value": 75
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_BMP_Unit",
+      "field": "timeCreation",
+      "value": 12.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_BTRFlamer_Unit",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_BTRFlamer_Unit",
+      "field": "timeCreation",
+      "value": 7.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_BTR_Unit",
+      "field": "minerals",
+      "value": 80
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_BTR_Unit",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Boeviks_Unit",
+      "field": "minerals",
+      "value": 15
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Boeviks_Unit",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Bombarda_Unit",
+      "field": "gears",
+      "value": 25
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Bombarda_Unit",
+      "field": "minerals",
+      "value": 400
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Bombarda_Unit",
+      "field": "timeCreation",
+      "value": 45.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Brem_Unit",
+      "field": "minerals",
+      "value": 75
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Brem_Unit",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Bronenosets_Unit",
+      "field": "gears",
+      "value": 25
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Bronenosets_Unit",
+      "field": "minerals",
+      "value": 350
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Bronenosets_Unit",
+      "field": "timeCreation",
+      "value": 45.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Brutes_Unit",
+      "field": "minerals",
+      "value": 2
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Brutes_Unit",
+      "field": "timeCreation",
+      "value": 15.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_CarArmored_Unit",
+      "field": "minerals",
+      "value": 45
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_CarArmored_Unit",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Dreadnought_Unit",
+      "field": "gears",
+      "value": 25
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Dreadnought_Unit",
+      "field": "minerals",
+      "value": 400
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Dreadnought_Unit",
+      "field": "timeCreation",
+      "value": 45.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_FlameTank_Unit",
+      "field": "minerals",
+      "value": 100
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_FlameTank_Unit",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Harvester_Unit",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Harvester_Unit",
+      "field": "timeCreation",
+      "value": 7.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Infanteria_Unit",
+      "field": "minerals",
+      "value": 45
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Infanteria_Unit",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MCV_BuildMobile",
+      "field": "energyProduce",
+      "value": 500
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MCV_BuildMobile",
+      "field": "limitProduce",
+      "value": 120
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MCV_BuildMobile",
+      "field": "minerals",
+      "value": 350
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MCV_BuildMobile",
+      "field": "siloProduce",
+      "value": 1000
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MendeleevTank_Unit",
+      "field": "minerals",
+      "value": 150
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MendeleevTank_Unit",
+      "field": "timeCreation",
+      "value": 12.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MgTurret_BuildMobile",
+      "field": "minerals",
+      "value": 75
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MgTurret_BuildMobile",
+      "field": "timeCreation",
+      "value": 7.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MissleSquad_Unit",
+      "field": "minerals",
+      "value": 25
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MissleSquad_Unit",
+      "field": "timeCreation",
+      "value": 3.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Molot_Unit",
+      "field": "minerals",
+      "value": 60
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Molot_Unit",
+      "field": "timeCreation",
+      "value": 6.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_RepairPad_BuildMobile",
+      "field": "minerals",
+      "value": 100
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_RepairPad_BuildMobile",
+      "field": "timeCreation",
+      "value": 10.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Spotters_Unit",
+      "field": "minerals",
+      "value": 75
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Spotters_Unit",
+      "field": "timeCreation",
+      "value": 7.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_SturmSquad_Unit",
+      "field": "minerals",
+      "value": 60
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_SturmSquad_Unit",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_SupportVechicle_Unit",
+      "field": "minerals",
+      "value": 175
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_SupportVechicle_Unit",
+      "field": "timeCreation",
+      "value": 25.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_TRM_BuildMobile",
+      "field": "minerals",
+      "value": 150
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_TRM_BuildMobile",
+      "field": "timeCreation",
+      "value": 12.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Tank_Unit",
+      "field": "minerals",
+      "value": 125
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Tank_Unit",
+      "field": "timeCreation",
+      "value": 12.5
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_VortexRszo_Unit",
+      "field": "minerals",
+      "value": 125
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_VortexRszo_Unit",
+      "field": "timeCreation",
+      "value": 15.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Yak_Unit",
+      "field": "minerals",
+      "value": 125
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Yak_Unit",
+      "field": "timeCreation",
+      "value": 12.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Zenitka_Unit",
+      "field": "minerals",
+      "value": 100
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Zenitka_Unit",
+      "field": "timeCreation",
+      "value": 15.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Zeppelin_Unit",
+      "field": "minerals",
+      "value": 100
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Zeppelin_Unit",
+      "field": "timeCreation",
+      "value": 12.0
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_Armore_UpgradeL",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_Armore_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_AssaultDoctrine_UpgradeG",
+      "field": "minerals",
+      "value": 1000
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_BronenosetsBunker_UpgradeL",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_BronenosetsBunker_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_BronenosetsCannons_UpgradeL",
+      "field": "minerals",
+      "value": 100
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_BronenosetsCannons_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_BronenosetsFlamers_UpgradeL",
+      "field": "minerals",
+      "value": 125
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_BronenosetsFlamers_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_Bunkering_UpgradeG",
+      "field": "minerals",
+      "value": 500
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_Energetics_UpgradeG",
+      "field": "minerals",
+      "value": 700
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_HarvDeath_UpgradeG",
+      "field": "minerals",
+      "value": 250
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_HarvGun_UpgradeL",
+      "field": "minerals",
+      "value": 25
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_HarvGun_UpgradeL",
+      "field": "timeCreation",
+      "value": 1.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_HarvRefDrop_UpgradeG",
+      "field": "minerals",
+      "value": 250
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_HonorSiege_UpgradeL",
+      "field": "minerals",
+      "value": 125
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_HonorSiege_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_Horn_UpgradeL",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_Horn_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_ISVmgTurret_UpgradeL",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_ISVmgTurret_UpgradeL",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_ISVrocketTurret_UpgradeL",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_ISVrocketTurret_UpgradeL",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MacroEconomy_UpgradeG",
+      "field": "minerals",
+      "value": 1500
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MedBlock_UpgradeL",
+      "field": "minerals",
+      "value": 75
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MedBlock_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MedTower_UpgradeL",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MedTower_UpgradeL",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MedicDoctrine_UpgradeG",
+      "field": "minerals",
+      "value": 500
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MercHeavy_UpgradeG",
+      "field": "minerals",
+      "value": 300
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MineKit_UpgradeL",
+      "field": "minerals",
+      "value": 40
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MineKit_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.0
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MiniCrane_UpgradeL",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_MiniCrane_UpgradeL",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_PowerCorps_UpgradeG",
+      "field": "minerals",
+      "value": 650
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_PurgerDoctrine_UpgradeG",
+      "field": "minerals",
+      "value": 250
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_PvoMass_UpgradeL",
+      "field": "minerals",
+      "value": 50
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_PvoMass_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_RepairExpansion_UpgradeG",
+      "field": "minerals",
+      "value": 1000
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_RepairMoving_UpgradeL",
+      "field": "minerals",
+      "value": 125
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_RepairMoving_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_RocketsDoctrine_UpgradeG",
+      "field": "minerals",
+      "value": 750
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_SiegeCannon_UpgradeL",
+      "field": "minerals",
+      "value": 100
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_SiegeCannon_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_SiegeDoctrine_UpgradeG",
+      "field": "minerals",
+      "value": 750
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_SupportDoctrine_UpgradeG",
+      "field": "minerals",
+      "value": 250
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TacticalRockets_UpgradeG",
+      "field": "minerals",
+      "value": 1500
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TanksDoctrine_UpgradeG",
+      "field": "minerals",
+      "value": 250
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TowerBarrack_UpgradeL",
+      "field": "minerals",
+      "value": 100
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TowerBarrack_UpgradeL",
+      "field": "timeCreation",
+      "value": 5.0
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TowersBarrack_UpgradeG",
+      "field": "minerals",
+      "value": 400
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_Trenching_UpgradeL",
+      "field": "minerals",
+      "value": 60
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_Trenching_UpgradeL",
+      "field": "timeCreation",
+      "value": 3.0
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TurretBaricade_UpgradeL",
+      "field": "minerals",
+      "value": 35
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TurretBaricade_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TurretsAT_UpgradeG",
+      "field": "minerals",
+      "value": 500
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TurretsFlamer_UpgradeG",
+      "field": "minerals",
+      "value": 500
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_TurretsMG_UpgradeG",
+      "field": "minerals",
+      "value": 500
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_ZeppelinNars_UpgradeL",
+      "field": "minerals",
+      "value": 60
+    },
+    {
+      "script": "UpgradeConfig",
+      "asset_name": "r_ZeppelinNars_UpgradeL",
+      "field": "timeCreation",
+      "value": 2.5
+    }
+  ],
+  "component_changes": [
+    {
+      "config_script": "BuildConfig",
+      "config_asset_name": "r_AtTurret_Build",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "AtTurretAk125/attack",
+      "occ_index": 0,
+      "field": "range",
+      "value": 27.7359
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BMP_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BMP/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BMP_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BMP/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BMP_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BMP/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 30
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BMP_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "BMP",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1400
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BMP_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "BMP",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.75
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTRFlamer_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "BTR_flamer/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTRFlamer_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "BTR_flamer/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 480
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTRFlamer_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "BTR_flamer/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 70
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTRFlamer_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "BTR_flamer",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1280
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTRFlamer_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "BTR_flamer",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 6.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTR_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BTR/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 6
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTR_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BTR/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 120
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTR_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BTR/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 26
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTR_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "BTR",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 800
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_BTR_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "BTR",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 6.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Boeviks_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BoevikX5",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Boeviks_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BoevikX5",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 50
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Boeviks_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BoevikX5",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Boeviks_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "BoevikX5",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Boeviks_Unit",
+      "comp_class": "SmoothPattern",
+      "go_rel_path": "BoevikX5",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Dreadnought-howitzer/siegeMode",
+      "occ_index": 0,
+      "field": "SpeedTower",
+      "value": 55.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Dreadnought-howitzer/siegeMode",
+      "occ_index": 0,
+      "field": "coolDownShot",
+      "value": 2.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Dreadnought-howitzer/siegeMode",
+      "occ_index": 0,
+      "field": "gun_cleanDamage",
+      "value": 600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Dreadnought-howitzer/siegeMode",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Dreadnought-howitzer/siegeMode",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 400
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Dreadnought-howitzer/siegeMode",
+      "occ_index": 0,
+      "field": "gun_range",
+      "value": 4.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Dreadnought-howitzer/siegeMode",
+      "occ_index": 0,
+      "field": "minRange",
+      "value": 12.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Dreadnought-howitzer/siegeMode",
+      "occ_index": 0,
+      "field": "range",
+      "value": 400.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Dreadnought-howitzer",
+      "occ_index": 0,
+      "field": "maxExtraHp",
+      "value": 6000
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Dreadnought-howitzer",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 39600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bombarda_Unit",
+      "comp_class": "UnitComponent",
+      "go_rel_path": "Dreadnought-howitzer",
+      "occ_index": 0,
+      "field": "fowRadius",
+      "value": 200.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Brem_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "BREM",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 800
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Brem_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "BREM",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 5.25
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/gatlings/gatlingCannon_0",
+      "occ_index": 0,
+      "field": "gun_cleanDamage",
+      "value": 16
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/gatlings/gatlingCannon_0",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/gatlings/gatlingCannon_0",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/gatlings/gatlingCannon_0",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 130
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/gatlings/gatlingCannon_0 (1)",
+      "occ_index": 0,
+      "field": "gun_cleanDamage",
+      "value": 16
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/gatlings/gatlingCannon_0 (1)",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/gatlings/gatlingCannon_0 (1)",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/gatlings/gatlingCannon_0 (1)",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 130
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/flamers/flamersL",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/flamers/flamersL",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 480
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/flamers/flamersL",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/flamers/flamersR",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/flamers/flamersR",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 480
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/flamers/flamersR",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/minomet_turret",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/minomet_turret",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Bronenosets/render/Buldozer_B4/Armature/main/body/minomet_turret",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 120
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Bronenosets_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Bronenosets",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 2600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Brutes_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Brutes",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Brutes_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Brutes",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 22
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Brutes_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Brutes",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Brutes_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Brutes",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 3200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Brutes_Unit",
+      "comp_class": "SmoothPattern",
+      "go_rel_path": "Brutes",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_CarArmored_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ArmCar_r/attack",
+      "occ_index": 0,
+      "field": "gun_cleanDamage",
+      "value": 30
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_CarArmored_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ArmCar_r/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 30
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_CarArmored_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ArmCar_r/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_CarArmored_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ArmCar_r/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_CarArmored_Unit",
+      "comp_class": "CarPattern",
+      "go_rel_path": "ArmCar_r",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 7.5
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_CarArmored_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "ArmCar_r",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 500
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "DreadnoughtA2/attack",
+      "occ_index": 0,
+      "field": "gun_cleanDamage",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "DreadnoughtA2/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "DreadnoughtA2/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 1300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "DreadnoughtA2/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 800
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "DreadnoughtA2/siegeMode",
+      "occ_index": 0,
+      "field": "gun_cleanDamage",
+      "value": 50
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "DreadnoughtA2/siegeMode",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "DreadnoughtA2/siegeMode",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 1300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "DreadnoughtA2/siegeMode",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 800
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Dreadnought_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "DreadnoughtA2",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 4200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_FlameTank_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "FlameTank/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_FlameTank_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "FlameTank/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 480
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_FlameTank_Unit",
+      "comp_class": "AutoAttack_Flamer",
+      "go_rel_path": "FlameTank/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 60
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_FlameTank_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "FlameTank",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_FlameTank_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "FlameTank",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 2.25
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Harvester_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Harvester/turret",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Harvester_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Harvester/turret",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Harvester_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Harvester/turret",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 310
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Harvester_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Harvester",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1000
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Harvester_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "Harvester",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 4.5
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "BoevikX10/render/roketeer",
+      "occ_index": 0,
+      "field": "gun_cleanDamage",
+      "value": 10
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "BoevikX10/render/roketeer",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 70
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "BoevikX10/render/roketeer",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 280
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "BoevikX10/render/roketeer",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 280
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BoevikX10",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BoevikX10",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 50
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "BoevikX10",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "BoevikX10",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 4200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Infanteria_Unit",
+      "comp_class": "SmoothPattern",
+      "go_rel_path": "BoevikX10",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 16
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 180
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (1)",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 16
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (1)",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 180
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (1)",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (2)",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 16
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (2)",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 180
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (2)",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (3)",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 16
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (3)",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 180
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MCV/Unit/render/MCV_mk23_anim/Armature/commandTopBase/mgMiniTwinTurret (3)",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MCV_BuildMobile",
+      "comp_class": "HP",
+      "go_rel_path": "MCV",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 5000
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MendeleevTank_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Mendeleev/front_mg",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MendeleevTank_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Mendeleev/front_mg",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 140
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MendeleevTank_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Mendeleev/front_mg",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 30
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MendeleevTank_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Mendeleev/attack (1)",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MendeleevTank_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Mendeleev/attack (1)",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 1200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MendeleevTank_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Mendeleev/attack (1)",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 660
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MendeleevTank_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Mendeleev",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 2200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MendeleevTank_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "Mendeleev",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MgTurret_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MgTurret/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MgTurret_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MgTurret/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 180
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MgTurret_BuildMobile",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MgTurret/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MgTurret_BuildMobile",
+      "comp_class": "HP",
+      "go_rel_path": "MgTurret",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 2400
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MgTurret_BuildMobile",
+      "comp_class": "TankPattern",
+      "go_rel_path": "MgTurret",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Boevik_Rocket",
+      "occ_index": 0,
+      "field": "gun_cleanDamage",
+      "value": 10
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Boevik_Rocket",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 70
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Boevik_Rocket",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 280
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Boevik_Rocket",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Boevik_Rocket/flak",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Boevik_Rocket/flak",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Boevik_Rocket/flak",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 36
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Boevik_Rocket",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_MissleSquad_Unit",
+      "comp_class": "SmoothPattern",
+      "go_rel_path": "Boevik_Rocket",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Molot_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Molot/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 360
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Molot_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Molot/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 800
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Molot_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Molot/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 320
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Molot_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Molot",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 700
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Molot_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "Molot",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 4.5
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_RepairPad_BuildMobile",
+      "comp_class": "HP",
+      "go_rel_path": "RepairPad",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1308
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_RepairPad_BuildMobile",
+      "comp_class": "TankPattern",
+      "go_rel_path": "RepairPad",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 2.25
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Spotters_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Spotters",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Spotters_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Spotters",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 800
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Spotters_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "Spotters",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 20
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Spotters_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Spotters",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 700
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Spotters_Unit",
+      "comp_class": "SmoothPattern",
+      "go_rel_path": "Spotters",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SturmSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "SturmSquad",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 50
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SturmSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "SturmSquad",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 220
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SturmSquad_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "SturmSquad",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 140
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SturmSquad_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "SturmSquad/BoevikTurret",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SturmSquad_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "SturmSquad/BoevikTurret",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 50
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SturmSquad_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "SturmSquad/BoevikTurret",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 2
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SturmSquad_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "SturmSquad",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 2000
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SturmSquad_Unit",
+      "comp_class": "SmoothPattern",
+      "go_rel_path": "SturmSquad",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.0
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ISV_Vechicle/attack/rocket/rocketTurret_1",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ISV_Vechicle/attack/rocket/rocketTurret_1",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 50
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ISV_Vechicle/attack/rocket/rocketTurret_1",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 90
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ISV_Vechicle/attack/rocket/rocketTurret_2",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ISV_Vechicle/attack/rocket/rocketTurret_2",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 50
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "ISV_Vechicle/attack/rocket/rocketTurret_2",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 90
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "ISV_Vechicle/attack/mg/mgTurret_1",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 10
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "ISV_Vechicle/attack/mg/mgTurret_1",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 90
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "ISV_Vechicle/attack/mg/mgTurret_1",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 10
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "ISV_Vechicle/attack/mg/mgTurret_2",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 10
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "ISV_Vechicle/attack/mg/mgTurret_2",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 90
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "ISV_Vechicle/attack/mg/mgTurret_2",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 10
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "ISV_Vechicle",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1620
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_SupportVechicle_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "ISV_Vechicle",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 3.75
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_TRM_BuildMobile",
+      "comp_class": "HP",
+      "go_rel_path": "TRM",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Tank_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "MediumTankV2/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Tank_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "MediumTankV2/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 560
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Tank_Unit",
+      "comp_class": "AutoAttack_Cannon",
+      "go_rel_path": "MediumTankV2/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 440
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Tank_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MediumTankV2/attack/TowerLerp/mg",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 6
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Tank_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MediumTankV2/attack/TowerLerp/mg",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Tank_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "MediumTankV2/attack/TowerLerp/mg",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 12
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Tank_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "MediumTankV2",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1400
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Tank_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "MediumTankV2",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 4.5
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_VortexRszo_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "RszoVortex/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 180
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_VortexRszo_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "RszoVortex/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_VortexRszo_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "RszoVortex/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 200
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_VortexRszo_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "RszoVortex",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 600
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_VortexRszo_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "RszoVortex",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 4.5
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Yak_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Yak/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 6
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Yak_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Yak/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 140
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Yak_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Yak/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Yak_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Yak",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 480
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zenitka_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Zenitka/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 10
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zenitka_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Zenitka/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 120
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zenitka_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Zenitka/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 40
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zenitka_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Zenitka",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 1000
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zenitka_Unit",
+      "comp_class": "TankPattern",
+      "go_rel_path": "Zenitka",
+      "occ_index": 0,
+      "field": "clearSpeed",
+      "value": 4.5
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zeppelin_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Zeppelin/attack",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 6
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zeppelin_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Zeppelin/attack",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 100
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zeppelin_Unit",
+      "comp_class": "AutoAttack_MG",
+      "go_rel_path": "Zeppelin/attack",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 6
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zeppelin_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Zeppelin/nars",
+      "occ_index": 0,
+      "field": "gun_damageToBuild",
+      "value": 240
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zeppelin_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Zeppelin/nars",
+      "occ_index": 0,
+      "field": "gun_damageToInfantry",
+      "value": 340
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zeppelin_Unit",
+      "comp_class": "AutoAttack_Projectile",
+      "go_rel_path": "Zeppelin/nars",
+      "occ_index": 0,
+      "field": "gun_damageToVehicle",
+      "value": 300
+    },
+    {
+      "config_script": "UnitConfig",
+      "config_asset_name": "r_Zeppelin_Unit",
+      "comp_class": "HP",
+      "go_rel_path": "Zeppelin",
+      "occ_index": 0,
+      "field": "maxHp",
+      "value": 780
+    }
+  ],
+  "world_changes": []
+}

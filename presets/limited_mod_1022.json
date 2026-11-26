@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "name": "有限修改MOD (10月22日原版)",
+  "description": "10月22日有限修改MOD原版预设：仓库与机动建造车增加人口/电力/储存容量，降低无畏舰与工程起重机零件需求并加快建造。",
+  "target_game_version": "D-35-1",
+  "changes": [
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Barn_Build",
+      "field": "limitProduce",
+      "value": 500
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_BarnBig_Build",
+      "field": "gears",
+      "value": 20
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_BarnBig_Build",
+      "field": "limitProduce",
+      "value": 1000
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Crane_Build",
+      "field": "gears",
+      "value": 25
+    },
+    {
+      "script": "BuildConfig",
+      "asset_name": "r_Crane_Build",
+      "field": "timeCreation",
+      "value": 25.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Dreadnought_Unit",
+      "field": "gears",
+      "value": 25
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_Dreadnought_Unit",
+      "field": "timeCreation",
+      "value": 45.0
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MCV_BuildMobile",
+      "field": "energyProduce",
+      "value": 500
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MCV_BuildMobile",
+      "field": "limitProduce",
+      "value": 200
+    },
+    {
+      "script": "UnitConfig",
+      "asset_name": "r_MCV_BuildMobile",
+      "field": "siloProduce",
+      "value": 1000
+    }
+  ]
+}

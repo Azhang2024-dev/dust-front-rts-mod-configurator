@@ -1,0 +1,6 @@
+使用方法：把压缩包里的 sharedassets0.assets 解压到  SteamLibrary\steamapps\common\Dust Front RTS Demo\Dust Front RTS_Data   文件夹里，替换游戏原来的sharedassets0.assets 文件即可。【最后一个文件夹看清楚：（是 Dust Front RTS_Data 文件夹）！MOD放错位置是无效的】
+
+注意事项：此MOD文件仅限与MOD更新时间对应的游戏Demo版本可用，如果后续游戏更新，MOD将失效，需要等待B站Up主： 战争核心官方_艾尔  更新MOD。
+因此：【建议需要MOD的玩家，自己备份一份当时的游戏文件！以便后续可以手动回滚到老版本来先使用老版MOD，然后等待MOD更新适配最新版】
+
+有限修改MOD【6月27日，此MOD仅做少量痛点数据调整：增加人口容量，降低建造无畏的零件需求量，无畏建造时间减半，起重机建筑的建造时间减半】

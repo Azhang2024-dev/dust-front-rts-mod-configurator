@@ -1,0 +1,20 @@
+# Game binary assets (copyrighted / large binaries, never commit)
+*.assets
+*.assets.bak
+*.assets.vanilla_backup
+*.assets.old
+*.tmp
+vanilla_backup.meta.json
+
+# Python / Virtualenv / Cache
+.venv/
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+
+# OS / Editor
+Thumbs.db
+desktop.ini
+.DS_Store
+.vscode/
